@@ -24,7 +24,7 @@
   }
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333 !important; 
+    color: #333; 
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -123,8 +123,10 @@ div {
             align-items: center;
             flex-direction: row;
             unicode-bidi: isolate;
-            gap: 10px; /* Пространство между полем и кнопкой */
-            flex-wrap: wrap; /* элементыпереноситься на новую строку */
+            gap: 10px;
+            /* Пространство между полем и кнопкой */
+            flex-wrap: wrap; 
+            /* элементыпереноситься на новую строку */
             position: relative;
             text-align: center !important;
         }
